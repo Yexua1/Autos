@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.color-top{
+  background-color: #d4d4d4;
+
+}
+
+.card.bg-black {
+  border-radius: 0; 
+}
