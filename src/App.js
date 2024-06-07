@@ -1,9 +1,12 @@
 import Navbar from "./components/Navbar.js";
-import Home from "./pages/Home.js";
+import router from "./router.js";
 
 export default function App() {
   const root = document.getElementById("root");
+  const route = router();
+
+  root.innerHTML = "";
 
   root.appendChild(Navbar());
-  root.appendChild(Home());
+  root.appendChild(route);
 }
